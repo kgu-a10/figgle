@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+clean:
+	@# Do nothing
+
+build:
+	@# Do nothing
+
+binary:
+	dh_installchangelogs -a debian/changelog
+	dh_fixperms -a
+	dh_gencontrol -a
+	dh_md5sums -a
+	dh_builddeb -a
+
+
+.PHONY: binary build clean

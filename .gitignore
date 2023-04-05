@@ -6,3 +6,4 @@ obj/
 *.suo
 *.nupkg
 /artifacts/
+debian/figgle*

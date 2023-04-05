@@ -1,0 +1,16 @@
+Source: figgle
+Section: devel
+Priority: optional
+Maintainer: Kevin Gu <kevingu@hotmail.com>
+Standards-Version: 0.5.1
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/kgu-a10/figgle
+Rules-Requires-Root: no
+
+Package: figgle
+Architecture: any
+#Depends: python
+Description: drewnoakes' figgle package
+ drewnoaks' package is written in CSharp.
+ .
+ It is awesome.
