@@ -1,7 +1,7 @@
 figgle (0.5.1-1) stretch; urgency=medium
 
   * Initial packaging work with dpkg-buildpackage. The debian source package
-    can be generated via "sudo dpkg-buildpackage -I=.git" at the top level
+    can be generated via "sudo dpkg-buildpackage --tar-ignore=.git*" at the top level
     directory of this git clone tree. The package name will be figgle_0.5.1-1
     stored at the parent directory of this git clone tree.
 
