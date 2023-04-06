@@ -4,5 +4,9 @@ figgle (0.5.1-1) stretch; urgency=medium
     can be generated via "sudo dpkg-buildpackage --tar-ignore=.git*" at the top level
     directory of this git clone tree. The package name will be figgle_0.5.1-1
     stored at the parent directory of this git clone tree.
+    Detailed steps for generating the package:
+    git clone https://github.com/kgu-a10/figgle.git figgle-0.5.1
+    cd figgle-0.5.1
+    sudo dpkg-buildpackage --tar-ignore=.git* 
 
  -- Kevin Gu <kevingu@hotmail.com>  Wed, 05 Apr 2023 00:36:07 -0700
